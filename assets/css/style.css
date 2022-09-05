@@ -209,4 +209,35 @@ padding: 3rem 9.5rem;
  font-size: 20px;
 
 }
+.top{
+    position: relative;
+    z-index: 1;
+
+}
+.foot{
+    position: relative;
+    z-index: 1;
+}
+.icon{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    background-color: white;
+    padding: 18px 8px;
+    border-radius: 20px;
+    margin-top: 10px;
+    transition: 0.5s;
+ 
+
+}
+.icon:hover{
+    scale: 1.1;
+    color: rgb(211, 74, 74);
+
+}
+.icon i{
+    display: block;
+    font-size: 17px;
+    padding-top: 22px;
+}
 
