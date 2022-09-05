@@ -17,8 +17,10 @@ a{
 header{
     display: flex;
     justify-content: space-evenly;
-  
-    padding: 3rem 4rem;
+    padding: 1.8rem 4rem;
+ position: fixed;
+ align-items: center;
+
     
 }
 header::after{
@@ -39,6 +41,7 @@ nav a{
   margin-left: 50px;
     font-size: 18px;
     color: white;
+    transition: 0.5s;
 }
 
 .app{
@@ -53,6 +56,7 @@ nav a{
     justify-content: space-evenly;
     padding: 3rem 8rem;
     width: 100%;
+    padding: 10rem;
     
 }
 .maska{
@@ -66,7 +70,7 @@ text-align: center;
 .maska::after{
     content: 'Masks';
     left: 0;
-    top: -49px;
+    top: -30px;
     position:absolute;
     width: 100%;
     height: 100px;
@@ -97,7 +101,7 @@ text-align: center;
     z-index: -1;
     opacity: 0.3;
     position: absolute;
-    font-size: 90px;
+    font-size: 70px;
 }
 .left p{
     font-size: 22px;
@@ -121,14 +125,17 @@ padding: 3rem 9.5rem;
 .box .top img{
     width: 100%;
     border-radius: 10px;
+    transition: 0.5s;
 }
 
 .box{
     width: 30%;
     background-color:#f2f2f2;
     border-radius: 10px;
+    overflow: hidden;
 }
-.box:hover{
+.box img:hover{
+    
     scale: 1.1;
 }
 
@@ -230,6 +237,16 @@ padding: 3rem 9.5rem;
  
 
 }
+.ic{
+    transition: 0.5s;
+}
+.ic i:hover {
+    
+    color: yellow;
+}
+.ic:hover{
+    scale: 1.1;
+}
 .icon:hover{
     scale: 1.1;
     color: rgb(211, 74, 74);
@@ -239,5 +256,10 @@ padding: 3rem 9.5rem;
     display: block;
     font-size: 17px;
     padding-top: 22px;
+}
+.first a:hover{
+scale: 1.1;
+opacity: 0.3;
+
 }
 
